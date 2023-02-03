@@ -4,6 +4,7 @@
   import AwardSection from "./AwardSection.svelte";
   import OfferSection from "./OfferSection.svelte";
   import TeamSection from "./TeamSection.svelte";
+  import UpcomingEventSection from "./UpcomingEventSection.svelte";
   import WorkshopSection from "./WorkshopSection.svelte";
 </script>
 
@@ -12,4 +13,5 @@
 <OfferSection />
 <WorkshopSection />
 <TeamSection />
+<UpcomingEventSection />
 <AwardSection />

@@ -1,6 +1,3 @@
-<script lang="ts">
-</script>
-
 <section class="award-section" aria-labelledby="events-title">
   <div class="container award-container">
     <header class="award-header">
@@ -17,25 +14,25 @@
     </header>
 
     <ul class="awards">
-      <li class="award" data-aos="fade-up" data-aos-delay="100">
+      <li class="award" data-aos="fade-up">
         <img src="/about/award-01.png" alt="" class="award-image" />
         <p class="award-sub-text">Market / 2023</p>
         <h3 class="award-title color-heading">Evanto Design of The Week</h3>
       </li>
 
-      <li class="award" data-aos="fade-up" data-aos-delay="200">
+      <li class="award" data-aos="fade-up">
         <img src="/about/award-02.png" alt="" class="award-image" />
         <p class="award-sub-text">Udemy / 2023</p>
         <h3 class="award-title color-heading">Award Site of The Year</h3>
       </li>
 
-      <li class="award" data-aos="fade-up" data-aos-delay="300">
+      <li class="award" data-aos="fade-up">
         <img src="/about/award-03.png" alt="" class="award-image" />
         <p class="award-sub-text">Review / 2023</p>
         <h3 class="award-title color-heading">Best Customer Support</h3>
       </li>
 
-      <li class="award" data-aos="fade-up" data-aos-delay="400">
+      <li class="award" data-aos="fade-up">
         <img src="/about/award-04.png" alt="" class="award-image" />
         <p class="award-sub-text">Market / 2023</p>
         <h3 class="award-title color-heading">Top Selling Premium Item</h3>
@@ -77,6 +74,14 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
     list-style-type: none;
+    position: relative;
+  }
+
+  .awards::before {
+    content: url("/about/award-decoration.png");
+    position: absolute;
+    top: -20%;
+    right: -5%;
   }
 
   .award {
@@ -84,9 +89,10 @@
     padding: 2.5rem;
     display: grid;
     place-items: center;
+    background: white;
     text-align: center;
     box-shadow: 0 10px 30px rgb(0 0 0 / 6%);
-    transition: 0.4s;
+    transition: 0.4s 0s;
   }
 
   .award:hover {
