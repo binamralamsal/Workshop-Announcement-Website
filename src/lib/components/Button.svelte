@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { HTMLButtonAttributes } from "svelte/elements";
 
-  type Variant = "primary" | "dark-primary";
+  type Variant = "primary" | "dark-primary" | "light-secondary";
   type Size = "default" | "large";
 
   export let href: string | undefined = undefined;
@@ -21,6 +21,7 @@
   class:btn={true}
   class:primary={variant === "primary"}
   class:dark-primary={variant === "dark-primary"}
+  class:light-secondary={variant === "light-secondary"}
   class:large={size === "large"}
   {href}
 >
@@ -58,5 +59,15 @@
   .dark-primary {
     color: var(--clr-neutral-100);
     background: var(--clr-accent-600);
+  }
+
+  .light-secondary {
+    color: var(--clr-accent-400);
+    background: white;
+  }
+
+  .light-secondary:hover {
+    color: white;
+    background: var(--clr-secondary-400);
   }
 </style>
