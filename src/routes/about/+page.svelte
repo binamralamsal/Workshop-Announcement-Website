@@ -1,6 +1,7 @@
 <script lang="ts">
   import { PageHeader } from "$lib/components";
   import AboutSection from "./AboutSection.svelte";
+  import AwardSection from "./AwardSection.svelte";
   import OfferSection from "./OfferSection.svelte";
   import TeamSection from "./TeamSection.svelte";
   import WorkshopSection from "./WorkshopSection.svelte";
@@ -11,3 +12,4 @@
 <OfferSection />
 <WorkshopSection />
 <TeamSection />
+<AwardSection />
