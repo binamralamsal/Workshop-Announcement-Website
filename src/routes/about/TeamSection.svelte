@@ -61,8 +61,12 @@
     </header>
 
     <ul class="members">
-      {#each teams as team}
-        <li class="member">
+      {#each teams as team, index}
+        <li
+          class="member"
+          data-aos="fade-up"
+          data-aos-delay={(index + 1) * 100}
+        >
           <div class="photo">
             <div class="inner">
               <img src={team.photo} alt="" />
