@@ -4,8 +4,6 @@
     title: string;
     href: string;
   };
-
-  export let breadcrumbs: BreadCrumbItem[] = [];
 </script>
 
 <section class="header">
@@ -33,11 +31,6 @@
             <path d="M9 6l6 6l-6 6" />
           </svg>
         </li>
-
-        {#each breadcrumbs as }
-          
-        {/each}
-
         <li>{title}</li>
       </ul>
     </nav>

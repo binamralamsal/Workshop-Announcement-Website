@@ -4,7 +4,9 @@
 
   export let href: string;
 
-  interface $$Props extends HTMLAnchorAttributes {}
+  interface $$Props extends HTMLAnchorAttributes {
+    href: string;
+  }
 </script>
 
 <a
