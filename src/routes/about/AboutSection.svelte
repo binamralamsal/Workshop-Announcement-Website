@@ -1,6 +1,6 @@
 <section class="about-section" aria-labelledby="about-title">
   <div class="container about-container even-columns">
-    <div class="images">
+    <div class="images" data-aos-delay="50" data-aos="fade-right">
       <div class="session-stats">
         <strong class="stat-title color-accent">2.98</strong>
         <p class="stat-details color-heading">Finished Session</p>
@@ -38,32 +38,24 @@
         People Love To Learn With us
       </h3>
 
-      <div class="features even-columns">
+      <div
+        class="features even-columns"
+        data-aos="fade-up"
+        data-aos-delay="500"
+      >
         <div class="feature">
-          <h4 class="feature-stat" data-aos="fade-up" data-aos-delay="500">
-            90%
-          </h4>
+          <h4 class="feature-stat">90%</h4>
           <div class="feature__content">
-            <p
-              class="feature__description"
-              data-aos="fade-up"
-              data-aos-delay="600"
-            >
+            <p class="feature__description">
               90% of students see their course through to completion.
             </p>
           </div>
         </div>
 
         <div class="feature">
-          <h4 class="feature-stat" data-aos="fade-up" data-aos-delay="500">
-            9/10
-          </h4>
+          <h4 class="feature-stat" data-aos="fade-up">9/10</h4>
           <div class="feature__content">
-            <p
-              class="feature__description"
-              data-aos="fade-up"
-              data-aos-delay="600"
-            >
+            <p class="feature__description">
               9/10 users reported better learning outcomes.
             </p>
           </div>
