@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
 
-  let deadlineDate = new Date(2023, 1, 5);
+  let deadlineDate = new Date(2023, 1, 20);
   let difference = deadlineDate.getTime() - new Date().getTime();
 
   const interval = setInterval(() => {
@@ -15,6 +15,12 @@
   onDestroy(() => {
     clearInterval(interval);
   });
+
+  $: {
+    if (difference <= 0) {
+      difference = 0;
+    }
+  }
 </script>
 
 <section class="offers-section" aria-labelledby="events-title">

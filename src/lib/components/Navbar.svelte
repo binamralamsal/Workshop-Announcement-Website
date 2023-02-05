@@ -94,6 +94,7 @@
     position: sticky;
     background-color: white;
     animation: headerSticky 0.95s ease forwards;
+    box-shadow: 0 3px 9px rgb(0 0 0 / 5%);
   }
 
   .navbar-wrapper.transparent.scrolled {

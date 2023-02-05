@@ -8,6 +8,10 @@
   import WorkshopSection from "./WorkshopSection.svelte";
 </script>
 
+<svelte:head>
+  <title>About | Xavier Entrepreneurship Bootcamp</title>
+</svelte:head>
+
 <PageHeader title="About Us" />
 <AboutSection />
 <OfferSection />
