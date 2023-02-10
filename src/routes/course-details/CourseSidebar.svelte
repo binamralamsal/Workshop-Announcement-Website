@@ -202,7 +202,7 @@
       <span>Rs. 500</span>
     </li>
   </ul>
-  <Button size="large" href="https://forms.google.com">
+  <Button size="large" href="https://forms.google.com" target="_blank">
     Register
     <svg
       class="icon-tabler icon-tabler-arrow-right s-xcnQQNRdRv-M"

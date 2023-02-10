@@ -11,6 +11,7 @@
   interface $$Props extends HTMLButtonAttributes {
     href?: string | undefined;
     variant?: Variant;
+    target?: "_blank";
     size?: Size;
   }
 </script>
